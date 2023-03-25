@@ -1,24 +1,16 @@
 /*
-  Documentation on Commands
-  - pic
-  - some commands will have the same behavior :
-    + GET
-    + GETEX
-    + GETDEL
+  Use Case of Expiration Options
+  - pic: expiration
 
+  - some options: 
+    + EX: seconds
+    + PX: milliseconds
+    + EXAT / PXAT: specific date/time
+    + KEEPTTL: keep any expiration that has already been applied to this key
 
-  - we will need to refers to docs so much 
-    > https://redis.io/commands/
-
-
-//////////////////////////////////////
-
-  Variations of SET
-  - NX | XX: only set this key if: (there are 2 cases > NX | XX): 
-    + key exists
-    + key does not exist
-
-  (***) we need to check rbook in each lesson 
-        > http://localhost:3050/
+  - why we want to use this option
+    + pic
 
 */
+
+const rBook = 'http://localhost:3050/'
