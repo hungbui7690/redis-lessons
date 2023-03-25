@@ -1,6 +1,6 @@
 /*
-  GET and MGET
+  String Ranges
 
 */
 
-const rBook = 'http://localhost:3050/' // npx rbook
+const rBook = 'http://localhost:3050/'
