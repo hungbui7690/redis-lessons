@@ -1,26 +1,13 @@
 /*
-  Why Use Redis
+  Basic Commands
+  - connection URL: 
+    > redis://:lQhQSul4e7reThEBgKtzRFTxlgDH1Iww@redis-12581.c241.us-east-1-4.ec2.cloud.redislabs.com:12581
+
   - pic
+  - SET message 'Hi There'   
+    > after the value > there should be no space > otherwise, error
+    > command: { name: 'set', args: [ 'message', 'Hi There', '' ] } > this is the case when we have space after "Hi There" > will create 3rd argument
 
-///////////////////////////////////////
-
-  Initial Setup
-  - pic
-  - create account on redis.com
-    + create free subscription
-    + create db > Active Db
-
-///////////////////////////////////////
-
-  Run rbook on cloud
-  - to query > use rbook.cloud
-    > Connect > we just need host, port + password (pic)
-
-///////////////////////////////////////
-
-  Run rbook locally
-  > npx rbook
-  > http://localhost:3050/
-
+  - pic: depends on the data structure, we will use different commands
 
 */
