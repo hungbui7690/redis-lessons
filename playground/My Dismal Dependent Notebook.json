@@ -1,0 +1,1 @@
+{"name":"My Dismal Dependent Notebook","fileName":"My Dismal Dependent Notebook.json","createdAt":"2023-03-25T20:33:02.909Z","cells":[{"id":"496223a39f5c9d49","type":"markdown","content":"**Notes**\n\n* Add some notes here\n* Use markdown"},{"id":"0e18361d97c9ace1","type":"redis","content":"SET key value\r\n"}],"id":"999de3fc65cb5b92"}
