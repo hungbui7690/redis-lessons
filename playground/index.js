@@ -1,6 +1,10 @@
 /*
-  Hashes in Redis
+  Storing and Retrieving Hashes
   - pic
-  - NO nested key:value pair
+  - HGETALL: 
+    + some clients return object
+    + some clients return array > it depends
 
 */
+
+const rBook = 'http://localhost:3050/'

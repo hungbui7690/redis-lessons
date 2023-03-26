@@ -1,0 +1,1 @@
+{"id":"32c665","fileName":"my-overjoyed-log-notebook.json","name":"Hash","cells":[{"id":"ccc8e1","type":"redis","content":"HSET company name 'Concrete Go' age 1915 industry material revenue 5.3\r\n\r\nHGET company revenue // HGET key value"},{"id":"1679795655882","type":"redis","content":"HGETALL company// get all key value pairs "}],"createdAt":"2023-03-26T01:50:25.816Z"}
