@@ -1,6 +1,8 @@
 /*
   Numbers in Hashes
-  - 
+  - HSTRLEN
+  - HKEYS
+  - HVALS
 
 */
 
