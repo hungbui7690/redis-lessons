@@ -9,10 +9,10 @@ const run = async () => {
 
 	// ***
 	const data = await client.hGetAll('car#12321312321321');
-	console.log(data); // {}
+	console.log(data);
 
-	// *** the check below is meaningless
-	if (!data) {
+	// *** we should use another check
+	if (Object.keys(data).length === 0) {
 		console.log('Car not found!!!');
 		return;
 	}

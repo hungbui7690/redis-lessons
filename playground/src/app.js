@@ -1,5 +1,5 @@
 /*
-  Issues with HGETALL P1
+  Issues with HGETALL P2
   - pic
   - sandbox/index.js
 
