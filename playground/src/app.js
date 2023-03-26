@@ -1,10 +1,8 @@
 /*
-  Better Key Generation  
-  - /services/keys.ts
-    > missing "e":
-      - client.get('pagecach#' + value)
-        > easy to have typo
+  Slightly Unpredictable HSET and HGETALL
+  - sandbox/index.ts > code write here
 
-  - /services/page-cache.ts
+  (***) to run: npm run sandbox
 
+  > not predictable > next lesson
 */
