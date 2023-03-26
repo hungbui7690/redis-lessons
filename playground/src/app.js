@@ -1,7 +1,10 @@
 /*
-  Adding Page Caching P2
-  - /services/redis/client.ts > how to connect to redis db
-  - services/queries/page-cache.ts
+  Better Key Generation  
+  - /services/keys.ts
+    > missing "e":
+      - client.get('pagecach#' + value)
+        > easy to have typo
 
-  > after finish this lesson, go to website /privacy, /about, /signin, /signup
+  - /services/page-cache.ts
+
 */
