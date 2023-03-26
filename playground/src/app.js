@@ -1,8 +1,6 @@
 /*
-  Issues with HSET
+  Issues with HGETALL P1
   - pic
-  - sandbox/index.ts > code write here
-
-  (***) to run: npm run sandbox
+  - sandbox/index.js
 
 */

@@ -2,17 +2,20 @@ import 'dotenv/config';
 import { client } from '../src/services/redis';
 
 const run = async () => {
-	// *** the instructor code, he stills can store nested object, but we cannot > the problem appears in his code is when he set the owner = null > null.toString() === err > we need to use || to check for that
 	await client.hSet('car', {
 		color: 'red',
-		year: 1950,
-		owner: null || '',
-		service: undefined || ''
-		// engine: {}, // *** instructor still can store this > engine: [object Object]
+		year: 1950
 	});
 
-	const data = await client.hGetAll('car');
-	console.log(data);
+	// ***
+	const data = await client.hGetAll('car#12321312321321');
+	console.log(data); // {}
+
+	// *** the check below is meaningless
+	if (!data) {
+		console.log('Car not found!!!');
+		return;
+	}
 };
 
 run();
