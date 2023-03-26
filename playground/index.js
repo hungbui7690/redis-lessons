@@ -1,8 +1,5 @@
 /*
-  Numbers in Hashes
-  - HSTRLEN
-  - HKEYS
-  - HVALS
+  Completed Notes
 
 */
 
